@@ -46,7 +46,7 @@ npx husky add .husky/pre-commit "npm-run-lint"
 
 ### step 5
 
-每次commit的时候会执行 `npm run lint`，如果不通过则取消commit
+每次commit的时候会执行 `npm run lint`
 
 
 ## 参考博客
