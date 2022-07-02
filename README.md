@@ -39,6 +39,9 @@ Windows下执行报错：husky用法错误，上述命令改为：
 
 ```sh
 npx husky add .husky/pre-commit "npm-run-lint"
+# 如果用lint-staged
+# npm install lint-staged -D
+# npx husky add .husky/pre-commit "npx lint-staged"
 ```
 
 再手动修改 `.husky/pre-commit` 文件， `npm-run-lint` 改为 `npm run lint`
